@@ -1,0 +1,15 @@
+.myLogo{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color: #90323D;
+}
+
+
+.headerSign{
+    width: 100%;
+}
+
+.headerSign h3{
+    color: #D9CAB3;
+}

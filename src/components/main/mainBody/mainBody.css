@@ -7,12 +7,12 @@
 
 .news{
     margin-top: 10px;
-    margin-left: 33%;
+    margin-left: 18%;
     text-align: center;
-    width: 600px;
 }
 
 .newsContent{
     background-color: #5E0B15;
     border-radius: 10px;
+    width: 1000px;
 }

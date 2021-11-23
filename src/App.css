@@ -1,7 +1,6 @@
 .App {
   text-align: center;
   font-family: "3270Medium Nerd Font";
-  background-color: #5E0B15;
 }
 h3{
   color: #D9CAB3;
@@ -24,4 +23,8 @@ input:hover{
   border: 5px solid #90323D;
   border-radius: 10px;
   color: #8C7A6B;
+}
+
+body {
+  background-color: #90323D;
 }

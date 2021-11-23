@@ -24,11 +24,6 @@ class MainBody extends Component{
     render() {
         return(
             <div className="mainBody">
-                <div className="choiceWindow">
-                    {this.state.buttonId===1 && <WeekendNews/>}
-                    {this.state.buttonId===2 && <SecondNews/>}
-                    {this.state.buttonId===3 && <Lastnews/>}
-                </div>
                 <div className="newsList">
                     <div className="news">
                         <h1>
@@ -40,6 +35,9 @@ class MainBody extends Component{
                             </h3>
                             <input className="button-reg" onClick={() => this.setButton(1)} value="читать далее..."
                                 type="button" ref="button" />
+                            <div className="choiceWindow">
+                                {this.state.buttonId===1 && <WeekendNews/>}
+                            </div>
                         </div>
                     </div>
                     <div className="news">
@@ -52,6 +50,9 @@ class MainBody extends Component{
                             </h3>
                             <input className="button-reg" onClick={() => this.setButton(2)} value="читать далее..."
                                    type="button" ref="button" />
+                            <div className="choiceWindow">
+                                {this.state.buttonId===2 && <SecondNews/>}
+                            </div>
                         </div>
                     </div>
                     <div className="news">
@@ -64,6 +65,9 @@ class MainBody extends Component{
                             </h3>
                             <input className="button-reg" onClick={() => this.setButton(3)} value="читать далее..."
                                    type="button" ref="button" />
+                            <div className="choiceWindow">
+                                {this.state.buttonId===3 && <Lastnews/>}
+                            </div>
                         </div>
                     </div>
                 </div>

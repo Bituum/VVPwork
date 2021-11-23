@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./newsStyle.css"
 
 const SecondNews = () =>{
     return (
